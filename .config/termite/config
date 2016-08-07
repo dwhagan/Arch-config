@@ -1,0 +1,43 @@
+[options]
+font = Terminus 11
+
+[colors]
+
+# special
+foreground      = #6d9eac
+foreground_bold = #6d9eac
+cursor          = #6d9eac
+background      = rgba(38, 39, 41, 0.85)
+
+# black
+color0  = #1d1d1d
+color8  = #4a4a4a
+
+# red
+color1  = #e04614
+color9  = #f0987c
+
+# green
+color2  = #84C321
+color10 = #ddffa4
+
+# yellow
+color3  = #ff7226
+color11 = #faae64
+
+# blue
+color4  = #1a72ff
+color12 = #87b5ff
+
+# magenta
+color5  = #9b3bb8
+color13 = #b294bb
+
+# cyan
+color6  = #247444
+color14 = #7cd9a1
+
+# white
+color7  = #9c9c9c
+color15 = #fafafa
+ 
