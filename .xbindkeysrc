@@ -1,0 +1,41 @@
+# Increase volume
+
+"killall -s USR1 py3status"
+    XF86AudioRaiseVolume
+"pamixer --increase 2"
+    XF86AudioRaiseVolume
+
+# Decrease volume
+
+"killall -s USR1 py3status"
+    XF86AudioLowerVolume
+"pamixer --decrease 2"
+    XF86AudioLowerVolume
+
+# Mute volume
+
+"killall -s USR1 py3status"
+    XF86AudioMute
+"pamixer --toggle-mute"
+    XF86AudioMute
+
+# Spotify Controls
+
+"killall -s USR1 py3status"
+    XF86AudioNext
+"killall -s USR1 py3status"
+    XF86AudioPrev
+"killall -s USR1 py3status"
+    XF86AudioPlay
+"killall -s USR1 py3status"
+    XF86AudioStop
+
+"playerctl --player spotify next"
+    XF86AudioNext
+"playerctl --player spotify previous"
+    XF86AudioPrev
+"playerctl --player spotify play-pause"
+    XF86AudioPlay
+"playerctl --player spotify stop"
+    XF86AudioStop
+
